@@ -8,11 +8,11 @@ Nova Markets' reported dashboard approval rate drop from 79.62% (Apr–May) to 7
 
 
 
-\* New Corridor Launch (NBLX-07): On June 2, local bank transfer route `NBLX-07` went live for IDR (Indonesia) and VND (Vietnam). Tighter risk rules applied on June 8 resulted in a lower processor approval rate (\~40.6%). Processing 2,881 attempts in June (28% of total volume), this new corridor pulled down the overall aggregate average.
+\ New Corridor Launch (NBLX-07): On June 2, local bank transfer route `NBLX-07` went live for IDR (Indonesia) and VND (Vietnam). Tighter risk rules applied on June 8 resulted in a lower processor approval rate (\~40.6%). Processing 2,881 attempts in June (28% of total volume), this new corridor pulled down the overall aggregate average.
 
-\* Japanese Card BIN Changes (SORVA-14): On June 11, acquirer BIN reallocations caused JPY card approval rates on route `SORVA-14` to drop from 70.16% to 61.16%.
+\ Japanese Card BIN Changes (SORVA-14): On June 11, acquirer BIN reallocations caused JPY card approval rates on route `SORVA-14` to drop from 70.16% to 61.16%.
 
-\* Portal Exclusion Distortion: The merchant dashboard excludes risk-filtered attempts. Pre-routing risk blocks on `NBLX-07` (655 attempts) distorted the ratio shown on their portal.
+\ Portal Exclusion Distortion: The merchant dashboard excludes risk-filtered attempts. Pre-routing risk blocks on `NBLX-07` (655 attempts) distorted the ratio shown on their portal.
 
 
 
@@ -36,15 +36,15 @@ Financial Reality: Nova Markets did not lose revenue on established routes. The 
 
 \## Assumptions and open questions
 
-\* \*Assumptions: 
+\ \Assumptions: 
 
-&#x20; \* Excluded June 29–30 attempts as incomplete, following the operations log extract cutoff window.
+&#x20; \ Excluded June 29–30 attempts as incomplete, following the operations log extract cutoff window.
 
-&#x20; \* Computed portal metrics using the merchant local timezone (UTC+8) and deposit attempts (`order\_type == 'SALE'`).
+&#x20; \ Computed portal metrics using the merchant local timezone (UTC+8) and deposit attempts (`order\_type == 'SALE'`).
 
-\* Open Questions:
+\ Open Questions:
 
-&#x20; \* What are the target chargeback and risk thresholds for IDR and VND traffic?
+&#x20; \ What are the target chargeback and risk thresholds for IDR and VND traffic?
 
 &#x20; \* Can commercial teams provide expected baseline conversion rates prior to launching new corridors?
 
